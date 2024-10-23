@@ -1,3 +1,8 @@
 {
-  "extends": "astro/tsconfigs/strict"
+  // Nota: No se necesita ningún cambio si usas "astro/tsconfigs/strict" o "astro/tsconfigs/strictest"
+  "extends": "astro/tsconfigs/base",
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "allowJs": true
+  }
 }
